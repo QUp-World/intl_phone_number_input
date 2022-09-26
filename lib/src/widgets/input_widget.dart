@@ -183,7 +183,7 @@ class _InputWidgetState extends State<InternationalPhoneNumberInput> {
               phoneNumber: widget.initialValue!.phoneNumber!,
               isoCode: widget.initialValue!.isoCode!))!) {
                 */
-      ) {}
+          ) {
         String phoneNumber =
             await PhoneNumber.getParsableNumber(widget.initialValue!);
 
